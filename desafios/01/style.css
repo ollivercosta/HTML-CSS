@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@font-face {
+    font-family: loves;
+    src: url(../fontes/LoversQuarrel-Regular.ttf) format(truetype);
+}
+body {
+    background-image: linear-gradient(to bottom, #EDEAE3, #67707444);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #d3c1b354;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+h1 {
+    font-family: loves;
+    color: #658C49;
+    text-shadow: 1px 1px 2px rgb(158, 158, 158);
+    font-size: 75px;
+    margin-top: -5px;
+    margin-bottom: -25px;
+    font-weight: normal;
+    
+}
+h2 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: #677074;
+    font-size: 17px;
+    padding-bottom: 4px;
+    font-weight: lighter;
+    
+}
+h3 {
+    background-color: #658C49;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+a {
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+hr {
+    border-color: #658c4923;
+    width: 500px;
+}
+.vlor {
+    color: #677074;
+    margin-bottom: -20px;
+}
+.vlorok {
+    color: #658C49;
+    font-weight: bold;
+    font-size: 25px;
+}
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 74);
+    text-align: justify;
+    font-size: 13px;    
+    padding-right: 55px;
+    padding-left: 55px;
+    
+}
+.check {
+    margin-bottom: -5px;
+    width: 20px;
+}

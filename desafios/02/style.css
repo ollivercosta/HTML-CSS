@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@font-face {
+    font-family: loves;
+    src: url(../fontes/LoversQuarrel-Regular.ttf) format(truetype);
+}
+
+body {
+    background-image: linear-gradient(to left, #038C73 35%, #02735E 35%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    background-image: linear-gradient(to left, white 31.5%, #038C73 31.5%, #036958d0 );
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #104a3081;
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+#principal {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.795);    
+    margin-left: 20px;
+    margin-right: 260px;
+    vertical-align: middle;
+}
+div {
+    
+}
+
+.icone {
+    display: inline-block;    
+    vertical-align: middle;
+
+}
+.search {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 220px;
+    color: rgba(255, 255, 255, 0.795)
+    
+}
+.perfil {
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+    margin-top: -10px;
+}
+.nome {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 120px;
+    color: #104A30;
+}
+.buy {
+    vertical-align: middle;
+    display: inline-block;  
+}
+.valor {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -750px;
+    padding-left: 50px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.titulotexto {
+     display: inline-block;  
+     vertical-align: middle;
+     margin-top: -650px;
+     padding-left: 50px;
+     font-size: 23px;
+     color: rgba(255, 255, 255, 0.795);
+     display: inline-block;  
+    
+}
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -550px;
+    padding-left: 50px;
+    color: white;
+    display: inline-block;  
+}
+.vaso {
+    margin-left: 480px;
+    margin-top: -370px;
+    display: inline-block;  
+    vertical-align: middle;
+    
+}
+.adquira {
+    box-shadow: 1px 1px 2px #104A30;
+    margin-top: -150px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.89);
+    width: 100px;
+    margin-left: 50px;
+        
+}
+.compra {
+    text-decoration: none;
+    color: #104A30;
+}
+.rodape {
+    color: rgba(255, 255, 255, 0.795);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-left: 50px;
+    margin-top: 80px;
+    margin-bottom: -110px;
+    
+
+}
+.rodape > p {
+    color: white;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 210px;
+    
+}
+#medida {
+    padding-left: 5px;
+}
+#arte {
+    padding-left: 20px;
+}
+#vasoamarelo {
+    padding-top: 20px;
+}
+#vazul {
+    padding-top: 20px;
+}
+#vverde {
+    padding-top: 20px;
+}
+.vasovermelho {
+    width: 80px;
+    margin-left: 915px;
+    padding-top: 10%;
+    display: inline-block;    
+    
+}
+section {
+    background-color: #038c7311;
+    border-radius: 5px;
+    width: 220px;
+    margin-left: 850px;
+    margin-top: -190px;
+    margin-bottom: 60px;
+    font-size: 12px;
+    padding-left: 85px;
+   
+    padding-top: 1px;
+    padding-bottom: 6px;
+    
+}
+#textra  {
+    width: 220px;
+    text-align: left;
+    margin-left: 3px;    
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    color: #104A30;
+    
+}
+#amarela {
+    width: 17px;    
+}
+#vasop {
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 850px;
+    margin-top: -350px;
+}
+#expandi {
+    margin-left: -570px;
+    margin-top: -40px;
+    
+}

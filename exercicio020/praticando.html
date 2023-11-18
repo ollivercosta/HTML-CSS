@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgb(201, 201, 198), rgba(185, 185, 185, 0.658));
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        main {
+           background-color: beige;
+           border-radius: 10px;
+           box-shadow: 1px 1px 10px gray;
+           margin: auto;
+           padding: 20px 20px 20px 20px;
+           width: 400px;
+        }
+        .text {
+            text-align: justify;
+            color: rgb(160, 159, 159);
+            vertical-align: middle;
+            
+        }
+        .text > strong {
+            color: rgb(128, 128, 128);
+            font-family: cursive;
+        }
+        .text > a {
+            color: rgb(178, 11, 184, 84);
+        }
+        
+        div > p {
+            display: none;
+            
+        }
+        div:hover > p {
+            display: block;
+        }
+        
+        .nome {
+            margin-left: 43px;
+        }
+        a:hover {
+            background-color: rgb(156, 156, 156);
+            padding: 5px 60px 5px 60px;
+            color: white;
+            font-weight: bold;
+            font-family: cursive;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(167, 0, 103);
+
+        }
+               
+        a:active {
+            
+            background-color: blueviolet;
+            font-size: 15px;
+            
+        }
+        
+        .segundo {
+            text-align: center;
+            
+            font-size: 13px;
+            
+        }
+        
+        .sub {
+            font-size: 12px;
+        }
+        .imagem {
+            width: 60px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        #rede:hover {
+            width: 80px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>OBSERVE ESSES EXEMPLOS</h1>
+    <main>
+        
+        <P class="sub">EXEMPLO USANDO O HOVER</P>
+        <h2>PASSE O MOUSE AQUI</h2>
+        <section>
+            <div class="ex01">PRIMEIRO EXEMPLO
+                <p class="text">Lorem <strong>ipsum</strong> dolor sit amet consectetur, adipisicing elit. Quae iusto ipsum eos <strong>deserunt</strong> porro aperiam <a href="">recusandae</a> perferendis facilis atque modi sequi <strong>laudantium rerum</strong>, fugit delectus nobis corrupti quaerat perspiciatis laborum?</p>
+            </div> <br>
+        </section>
+        <section class="teste01">
+            <div class="ex02">SEGUNDO EXEMPLO
+                <p class="segundo" id="rs"><a href="" class="insta">Instagram</a></p>
+                <p class="segundo" id="rs"><a href="">Facebook</a></p>
+                <p class="segundo" id="rs"><a href="">Youtube</a></p>
+            </div>
+
+        </section> <br>
+        <section class="text3">
+            <div class="listas">TERCEIRO EXEMPLO 
+                
+                <p class="nome">NOME <input type="text" name="" id=""></input></p>
+                <p>ENDEREÇO <input type="text" name="" id=""></input></p>
+                <p ><input type="button" value="Enviar" ></p>
+                                    
+            </div>
+        </section> <br>
+        <section>
+            <div>QUARTO EXEMPLO
+                <p><img class="imagem" src="../desafios/midias/imagens/social_instagram.png" alt="" id="rede">
+                <img class="imagem" src="../desafios/midias/imagens/social_facebook.png" alt="" id="rede">
+                <img class="imagem" src="../desafios/midias/imagens/social_youtube.png" alt="" id="rede">
+                <img class="imagem" src="../desafios/midias/imagens/social_SoundCloud.png" alt="" id="rede"></p>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <title>Estrutura do Site comentada</title>
+<style>
+
+@charset "UTF-8";
+/*Acima sempre iniciar informando o idioma ao navegador*/
+/*Abaixo foi importada uma fonte externa*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=My+Soul&display=swap');
+/*Abaixo foi imcorporada uma fonte que foi baixada*/
+@font-face {
+    font-family: Android;
+    src: url(../fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+}
+
+:root { /* a tag :root {} cria um Local para declarar as próprias variáveis*/
+/*Nesse caso foi criada as variáveis de cor e fontes*/
+/*Isso facilita o processo e a dinâmica de criação*/
+    --cor0: #c5ebd6;  /*Paleta de cor usada no site. Da mais clara a mais escura*/
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e; 
+    /* a declaração deve iniciar com --(dois traços), e colado neles, o nome da variável que deseja criar.*/   
+    /*Fontes usadas no site. Para cada grupo de fontes foi criada uma variável, especificando sua hierarquia*/
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'Android', cursive;
+}
+ 
+* {  /*Seletor Global - todo comando inserido aqui, vira uma regra geral para o site*/
+    margin: 0px;
+    padding: 0px;
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <p></p>
+    </header> <!--Nessa estrutura o menu veio abaixo do cabeçalho-->
+    <nav>
+        <a id="" href="#"></a>
+        <a id="" href="#"></a>
+        <a id="" href="#"></a>
+        <a id="" href="#"></a>
+    </nav> <!--Somente depois do menu inicíasse a parte principal -->
+    <main>
+        <article> <!--A tag article é usada para englobar todo o conteúdo dentro do main -->
+            <h1></h1>
+
+            <p> </p>
+
+            <h2></h2> 
+
+            <p> <a href="" target="_blank" class="externo"></a></p>
+
+            <picture>
+                <source media="(max-width: px)" srcset="">
+                <img src="" alt="">
+            </picture>
+
+            <p> <strong></strong>.</p>
+
+            <h2></h2>
+
+            <p> <a href="" target="_blank" class="externo">I</a></p>
+
+            <picture>
+                <source media="(min-width: px)" srcset="">
+                <img src="" alt=""></picture>
+
+            <p> <strong></strong>.</p>
+
+            <img src="" class="" alt="">
+
+            <p> <strong></strong> .</p>
+
+            <div class=""><iframe width="" height="" src="" title="" frameborder="0" allow="" allowfullscreen></iframe></div>
+            
+            <aside> <!--A tag aside é usada para uma informação extra no site, ex: uma propaganda, ou um gancho -->
+                <h3></h3>
+                <p>.</p>
+                <ul>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    <li> <abbr title=""></abbr></li>
+                    
+                </ul>
+                <p><strong></strong></p>
+
+                <p><a href="" target="_blank" class="externo"></a> </p>
+            </aside> <!--A estrutura é fechada assim que termina a informação extra -->
+            
+
+            <p></p>
+        </article>
+    </main> <!--Logo depois do main vem a estrutura Footer (rodapé) -->
+    <footer>
+        <p> <a href="i" target="_blank"></a> <a href="" target="_blank"></a>.</p>
+    </footer>
+</body>
+</html>

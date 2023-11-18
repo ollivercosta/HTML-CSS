@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px; /*largura da borda*/
+            border-style: solid; 
+            border-color: darkgrey;
+
+            border: 10px solid darkgray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px 10px 10px 10px;
+
+            padding: 10px;
+
+            /*A ordem do padding sempre é configurada no sentido horário*/
+            /* Caso todos os valores forem iguais, basta colocar apenas o primeiro valor. Esse irá valer por todos*/
+
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+            margin: 10px 20px; /*quando colocamos 2 valores, eles passam a informar que 10px vale para top e bottom e 20px para left e right*/
+
+            margin: 10px auto 20px auto; /*Dessa forma conseguimos automatizar apenas as laterais, centralizando o elemento*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            outline: 5px dashed salmon;
+
+        }
+    
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p><a href="">Parágrafos também são exemplos de box-level</a> Vamos ver como tudo isso funciona</p>
+</body>
+</html>
