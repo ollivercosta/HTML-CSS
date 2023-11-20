@@ -642,10 +642,10 @@ MODELO DE ESTRUTURA DE UM SITE
 
 <header>
     <h1></h1>
+</header>
     <nav> /*AQUI FICA O MENU*/
         <a href=""></a>
     </nav>
-</header>
 
 <main>
     <section id="">
