@@ -873,6 +873,30 @@ color > image > position > repeat > attachment
 O unico que ficou de fora foi o background-size: cover; 
 
 */
+______________________________________________________________
+MANIPULAÇÃO DA POSIÇÃO DO OBJETO
+
+HTML- 
+
+<section id="container"> (em primeiro lugar criar uma sessão "section" e adicionamos o id "container")
+        <article id="conteudo"> (dentro da sessão criar o "article" e adicionamos o id "conteudo")
+
+        </article>
+</section>
+
+STYLE - 
+(ambos utilizarão a tag position, porem a tag "externa" (de fora, section id="container") é relative e a tag "interna" (de dentro, article id="conteudo") é absolute)
+#container {
+    position: relative;
+}
+
+#conteudo {
+    position: absolute;
+    left: 50%;  
+    top: 50%; (a partir dessas configurações podemos incluir as tags left e top para definir a localização do objeto na tela)
+
+    transforme: translate(-50%, -50%); (configuramos aqui o centro do objeto)
+}
 
 --------------------------------------------------------------
 ATALHOS VSCODE
