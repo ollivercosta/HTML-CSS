@@ -835,6 +835,24 @@ list-style-position: inside; /* o inside muda a posição da bolinha na lista*/
 
 columns: 2; /*Divide a lista em 2 colunas*/
 --------------------------------------------------------------
+background - IMAGEM
+
+display: inline-block; /*Toda vez que quisermos organizada uma div  uma ao lado da outra usaremos essa tag*/
+
+para colocar uma imagem ao fundo, usamos a tag background-image: url('CAMINHO DA IMAGEM')
+
+background-size: 100px 100px; (codigo para multiplicar a imagem)
+background-repeat: repeat; (codigo para repetir a imagem)
+background-repeat: no-repeat; (codigo para não repetir a imagem)
+          usando o repeat-x a imagem é repetida na horizontal
+          usando o repeat-y a imagem é repetida na vertical
+
+background-position: left top;
+background-position: left center;
+background-position: right bottom;
+background-position: center center;
+
+
 
 
 --------------------------------------------------------------
