@@ -839,6 +839,8 @@ background - IMAGEM
 
 display: inline-block; /*Toda vez que quisermos organizada uma div  uma ao lado da outra usaremos essa tag*/
 
+height: 100vh; (configuração da página para preencher toda a altura)
+
 para colocar uma imagem ao fundo, usamos a tag background-image: url('CAMINHO DA IMAGEM')
 
 background-size: 100px 100px; (codigo para multiplicar a imagem)
@@ -853,7 +855,10 @@ background-position: right bottom;
 background-position: center center;
 
 
-
+background-size: contain; (a imagem é exibida 100%, independente do tamanho da tela)
+background-size: cover; (cobre a tela inteira, mesmo que tenha que recortar algum pedaço da imagem)
+background-size: 100% 100%; (podemos configurar o tamanho exato da imagem na tela)
+background-size: auto; (configuração automática)
 
 --------------------------------------------------------------
 
