@@ -859,9 +859,26 @@ background-size: contain; (a imagem é exibida 100%, independente do tamanho da 
 background-size: cover; (cobre a tela inteira, mesmo que tenha que recortar algum pedaço da imagem)
 background-size: 100% 100%; (podemos configurar o tamanho exato da imagem na tela)
 background-size: auto; (configuração automática)
+background-attachment: scroll; (O fundo rola junto com a barra, mostrando a limitação do tamanho da imagem)
+background-attachment: fixed; (O fundo fica fixo, podendo rolar a tela que ele n se move)
+
+/*OBSERVAÇÃO -  SHORTHAND
+
+Podemos simplificar o código da tag background seguindo essa ordem.
+
+background: black url('localdaimagem') center center no-repeat fixed;
+
+color > image > position > repeat > attachment
+
+O unico que ficou de fora foi o background-size: cover; 
+
+*/
 
 --------------------------------------------------------------
+ATALHOS VSCODE
 
+    Ctrl + ; -> faz a linha selecionada virar comentário
+    Ctrl + Shift + T -> Recupera a aba fechada
 
 --------------------------------------------------------------
 
