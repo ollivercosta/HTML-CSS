@@ -905,7 +905,10 @@ ATALHOS VSCODE
     Ctrl + Shift + T -> Recupera a aba fechada
 
 --------------------------------------------------------------
+LETRA MAIUSCULA 
 
+text-transform: uppercase; (todas as letras são grandes, do mesmo tamanho)
+font-variant: small-caps; (a primeira letra é maior que as demais)
 
 --------------------------------------------------------------
 
