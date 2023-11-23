@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: linda;
+    src: url('../midias/fontes/cartis_beautyful/Cartis\ Beautyful\ Script.otf') format(opentype);
+
+    font-family: escrita;
+    src: url('../midias/fontes/ambawang_signature/Ambawang\ Signature.otf') format(opentype);
+
+    font-family: romelio;
+    src: url('../midias/fontes/romelio_sans/Romelio.ttf') format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fundo: #F2EEEB;
+    --cor02: #B4D9D9;
+    --cor03: #C8D0AB;
+    --cor04: #658C85;
+    
+    --font01: linda, sans-serif;
+    --font02: escrita, sans-serif;
+    --fonte03: romelio, sans-serif;
+}
+
+body {
+    background-color: var(--fundo);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {    
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+
+
+
