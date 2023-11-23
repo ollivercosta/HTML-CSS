@@ -2,14 +2,19 @@
 
 @font-face {
     font-family: linda;
-    src: url('../midias/fontes/cartis_beautyful/Cartis\ Beautyful\ Script.otf') format(opentype);
+    src: url('../midias/fontes/champagne_limousines/Champagne\ &\ Limousines.ttf') format(truetype);
 
+    }
+
+    @font-face{
     font-family: escrita;
-    src: url('../midias/fontes/ambawang_signature/Ambawang\ Signature.otf') format(opentype);
+    src: url('../midias/fontes/LoversQuarrel-Regular.ttf') format(truetype);
+    }
 
-    font-family: romelio;
+    @font-face {
+    font-family: Romelio;
     src: url('../midias/fontes/romelio_sans/Romelio.ttf') format(truetype);
-}
+    }
 
 * {
     margin: 0px;
@@ -22,9 +27,9 @@
     --cor03: #C8D0AB;
     --cor04: #658C85;
     
-    --font01: linda, sans-serif;
-    --font02: escrita, sans-serif;
-    --fonte03: romelio, sans-serif;
+    --font01: 'linda', sans-serif;
+    --font02: 'escrita', sans-serif;
+    --font03: 'Romelio', sans-serif;
 }
 
 body {
@@ -33,12 +38,344 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {    
+a {
+    text-decoration: none;
+}
+
+.inicio > div {
+    display: flex;
+    position: relative;
+}
+
+.inicio > div > nav {
+    margin-bottom: 5px;
+}
+
+.inicio > div > nav > a {  
     font-size: 14px;
     text-decoration: none;
+    padding: 0px 10px 0px 0px;  
+    color: var(--cor04); 
+    transition-duration: 0.5s;     
+}
+
+.inicio > div > nav > a:hover {
+    background-color: var(--cor04);
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+#b1 {
+    width: 100%;
+    height: 450px;    
+    background-size: cover;
+    background: darkgrey url('../midias/imagens/img018.jpg') center center no-repeat fixed;
+}
+
+h1 {
+    font-family: var(--font01);
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner#b1 h1 {
+    background-color: var(--cor04);
+    color: white;
+    opacity: 80%;
+    padding: 40px;
+    padding-bottom: 160px;
+    width: 55vw;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*botão do banner 01*/
+.banner#b1 p {
+    background-color: var(--fundo);       
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(169, 169, 169, 0.459);
+    box-shadow: 1px 1px 3px rgba(151, 142, 111, 0.39);
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    padding-top: 6px;
+    position: absolute;
+    left: 50%;
+    top: 70%;    
+    transform: translate(-50%);
+    transition-duration: 1s;
+}
+
+.banner#b1 p:hover {
+    background-color: #e6c2b1;
+    color: white;
+}
+
+.banner#b1 a {
+    color: var(--cor04);
+    transition-duration: 1s;
+}
+
+.banner#b1 a:hover {
+    color: white;
+}
+
+/*Fim do botão 01*/
+
+main h1 {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.amb {    
+    margin: auto; 
+    min-width: 80%;
+    max-width: 80%; 
+         
+}
+
+#amb1 {    
+    margin: auto;
+    display: inline-block;
+    padding: 30px;
+    transform: translate(12%);   
+}
+
+.modelo {
+    font-family: var(--font02);
+    font-size: 40px;
+    text-align: center;
+}
+
+.estetica {
+    font-family: var(--font01);
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.quadro {    
+    background-color: #658C85;
+    width: 250px;
+    height: 250px;    
+}
+
+#q1 {
+    background-image: url('../midias/imagens/img02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#q2 {
+    background-image: url('../midias/imagens/img013.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#q3 {
+    background-image: url('../midias/imagens/img015.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc {
+    width: 250px;
+    font-family: var(--font01);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.bot {
+    text-align: center;
+    font-size: 14px;    
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.384);
+    background-color: #74a1a1;    
+    padding: 8px;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+
+.bot:hover {
+    background-color: #e6c2b1;
     
 }
 
+.bot a {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.281);
+}
+
+#b2 {
+    width: 100%;
+    height: 450px;    
+    background-size: cover;
+    background: darkgrey url('../midias/imagens/img17.jpg') center center no-repeat fixed;
+}
 
 
+.banner#b2 h1 {
+    background-color: var(--cor04);
+    color: white;
+    opacity: 80%;
+    padding: 40px;
+    padding-bottom: 160px;
+    width: 55vw;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
+/*botão do banner 01*/
+.banner#b2 p {
+    background-color: var(--fundo);       
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(169, 169, 169, 0.459);
+    box-shadow: 1px 1px 3px rgba(151, 142, 111, 0.39);
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    padding-top: 6px;
+    position: absolute;
+    left: 50%;
+    top: 70%;    
+    transform: translate(-50%);
+    transition-duration: 1s;
+}
+
+.banner#b2 p:hover {
+    background-color: #e6c2b1;
+    color: white;
+}
+
+.banner#b2 a {
+    color: var(--cor04);
+    transition-duration: 1s;
+}
+
+.banner#b2 a:hover {
+    color: white;
+}
+
+/*Fim do botão 01*/
+
+#q4 {
+    background-image: url('../midias/imagens/img016.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#q5 {
+    background-image: url('../midias/imagens/img012.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#q6 {
+    background-image: url('../midias/imagens/img020.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.email {
+    background-color: var(--cor04);    
+    padding: 60px 100px 100px 100px;
+    text-align: center;
+}
+
+.email h1 {
+    color: white;
+    margin-bottom: -30px;
+}
+
+.email p {
+    color: white;
+    font-family: var(--font01);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+form input{
+    width: 250px;
+    height: 25px;
+}
+
+.enviar {
+    width: 254px;
+    height: 29px;
+    color: var(--cor04);
+}
+
+#mot1, #mot2, #mot3, #mot4, #mot5 {
+    background-color: #B4D9D9;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: auto;
+   position: relative;
+}
+
+.motivos {
+    margin: auto;
+    position: absolute;
+    left: 8%;
+}
+
+#mot1 {
+    background-image: url('../midias/imagens/img01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mot2 {
+    background-image: url('../midias/imagens/img010.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mot3 {
+    background-image: url('../midias/imagens/img013.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mot4 {
+    background-image: url('../midias/imagens/img06.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mot5 {
+    background-image: url('../midias/imagens/img09.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+}
+
+#social {
+    width: 60px;
+    padding: 25px 0px 25px 0px;
+}
+
+footer > p {
+    font-family: var(--font01);
+   
+}
+
+footer a {
+    color: var(--cor04);
+}
