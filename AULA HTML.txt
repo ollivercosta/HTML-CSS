@@ -911,8 +911,31 @@ text-transform: uppercase; (todas as letras são grandes, do mesmo tamanho)
 font-variant: small-caps; (a primeira letra é maior que as demais)
 
 --------------------------------------------------------------
+HIERARQUIA DE TABELAS
 
+<table> = Tabela 
+    <table-row> = Linha da tabela (<tr>)
+        <table-header> = cabeçalho da tabela
+            <table-data> = Dados da tabela (<td>)
 
+______________________________________________________________
+Estrutura básica de style
+
+ table { /*Configuração GERAL EXTERNA da tabela - tag table*/
+            width: 400px; => Largura da Tabela
+            border-collapse: collapse; => Retira o espaço na tabela
+        }
+
+        tr { /*Configuração de cada LINHA da tabela - tag tr*/
+
+        }
+
+        td { /*Configuração de cada DADO da tabela - tag td*/
+            border: 1px solid black; 
+            padding: 8px;
+            text-align: center; => Alinha o dado horizontalmente na tabela
+            vertical-align: top; => Alinha o dado verticalmente na tabela
+        }
 --------------------------------------------------------------
 
 
