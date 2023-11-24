@@ -1027,6 +1027,39 @@ apenas na tabela é criada uma barra de rolagem a tornando prática/responsiva
 
 
 --------------------------------------------------------------
+CONFIGURANDO O IFRAME 
+
+<iframe> src="ENDEREÇO DO SITE" frameborder="0">  
+<a herf="ENDEREÇO DO SITE" target="_blank"></a>
+</iframe>
+
+"O iframe é um recurso que mostra o site na tela, em um mini formato.
+quando usamos o primeiro endereço, é esperado que mostre o site, e caso não mostre, usamos uma outro endereço que irá substituir caso seja necessário."
+
+______________________________________________________________
+TAMANHO DO IFRAME 
+
+300x150px => tamanho padrão 
+
+<iframe> src="ENDEREÇO DO SITE" frameborder="0" width="500" height="500">  
+<a herf="ENDEREÇO DO SITE" target="_blank"></a>
+</iframe>
+
+frameborder="0" => mesmo colocando um valor alto, a borda só atinge 1px
+
+Podemos adicionar Parâmetros para alterar o tamanho.
+
+
+<iframe> src="ENDEREÇO DO SITE" frameborder="0" width="500" height="500" scolling="no">  
+<a herf="ENDEREÇO DO SITE" target="_blank"></a>
+</iframe>
+
+scolling="no" => para eliminar a rolagem da página
+
+______________________________________________________________
+
+
+
 
 
 --------------------------------------------------------------
