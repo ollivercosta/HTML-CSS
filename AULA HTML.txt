@@ -1098,7 +1098,7 @@ OPÇÕES DE USO DO IFRAME - INCORPORAÇÃO
 
 VÍDEOS - Youtube | Vímeo
 MAPAS - Google Maps | Waze
-DOCUMENTOS - Google Documents (Planilhas | Apresentações | Formularios...)
+GOOGLE DOCS - Google Documents (Planilhas | Apresentações | Formularios...)
 
 Em todos os casos, o site oferece o código para incorporação, basta encontrar, configurar, copiar e colar no projeto.
 --------------------------------------------------------------
