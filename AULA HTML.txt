@@ -914,6 +914,7 @@ font-variant: small-caps; (a primeira letra é maior que as demais)
 HIERARQUIA DE TABELAS
 
 <table> = Tabela 
+    <caption> = Legenda da tabela 
     <table-row> = Linha da tabela (<tr>)
         <table-header> = cabeçalho da tabela
             <table-data> = Dados da tabela (<td>)
@@ -936,6 +937,95 @@ Estrutura básica de style
             text-align: center; => Alinha o dado horizontalmente na tabela
             vertical-align: top; => Alinha o dado verticalmente na tabela
         }
+
+______________________________________________________________
+
+Anatomia das grandes TABELAS
+
+    <table>
+       CAPTION 
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH    
+
+______________________________________________________________
+
+Escopo da tabela
+
+Toda vez que os dados/resultados relativos a tag <th> estiverem abaixo (nas linhas debaixo) iremos complementar a tag com <th scope="col">
+
+Toda vez que os dados/resultados relativos a tag <th> estiverem ao lado (na mesma linha) iremos complementar a tag com <th scope="row">
+
+______________________________________________________________
+EFEITO ZEBRADO 
+
+Para conseguir esse efeito, adicionaremos no css uma pseudoclass em tbody > tr:nth-child(2n) (o numero 2 é relacionado a quantas linhas iremos pular, nesse caso, de duas em duas linhas)
+
+obs: Podemos usar operação de subtrair no (2n) ficando (2n-1)
+
+Outro efeito que podemos utilizar aproveitando a mesma pseudoclasse é tbody > tr:nth-child(odd) que indica a marcação apenas nos número impares ou (even) que é par 
+
+______________________________________________________________
+FIXANDO O CABEÇALHO
+
+Css 
+
+table {
+    position: relative;
+}
+
+thead > tr > th {     /*O caminho deve ser bem específico*/
+    position: sticky;
+    top:-1px;
+    background-color: a cor que desejar; 
+}
+
+
+______________________________________________________________
+MESCLAGEM DE CÉLULAS
+
+<td colspan="2">B</td> usamos a tag colspan='2' para mesclar. 2 é o numero de células que iremos mesclar - expansão horizontal
+
+<td rowspan="3">F</td> usamos a tag colspan='3' para mesclar. 3 é o numero de células que iremos mesclar - expansão vertical
+
+
+Para faciltar a análise feita pelos buscadores, utilizamos a tag scope="rowgroup" para dizer que toda a linha faz parte daquela tag(utlizamos na tag TH)
+Também podemos usar scope="colspan" que serve para identificar todo o grupo de uma determinada coluna
+
+scope="row" => identifica apenas uma linha
+scope="col" => identifica apenas uma coluna
+
+
+______________________________________________________________
+SELECIONAR TODA A COLUNA
+
+<colgroup>  /*abrimos a tag colgroup*/ 
+<col> /*cada col é responsável por uma coluna*/
+<col> /*podemos configurar de várias formas*/
+<col class='' id='' span='3'> /*o uso da tag span nos avisa que iremos trabalhar com "3" (nesse caso) colunas ao mesmo tempo*/ 
+</colgroup>
+
+______________________________________________________________
+TABELA RESPONSIVA
+
+Depois de pronta a tabela, seleciona toda ela e envelopa com uma div.
+Feito isso, crie nela um id="container".
+
+no Css 
+div#container {
+    overflow-x: auto; /*overflow se aplica a tudo que transborda (fica fora da tela)*/
+
+    overflow
+    overflow-x => horizontal
+    overflow-y => vertical
+}
+
+apenas na tabela é criada uma barra de rolagem a tornando prática/responsiva
+
+
 --------------------------------------------------------------
 
 

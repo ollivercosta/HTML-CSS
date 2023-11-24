@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        th {
+            background-color: lightseagreen;
+            color: white
+        }
+
+        .nomem, .film1 {
+            background-color: rgba(255, 182, 193, 0.438);
+        }
+
+        .nomeh, .film2 {
+            background-color: rgba(135, 206, 250, 0.438);
+        }
+
+        .ana:hover, .bia:hover, .mel:hover {
+            background-color: lightpink;
+        }        
+
+        .bru:hover, .dan:hover, .fab:hover {
+            background-color: lightskyblue;
+          
+        }
+
+
+       
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="ana">
+                <th rowspan="3" class="genero" scope="rowgroup">Mulheres</th>
+                <td class="nomem">Ana Maria Santos</td>
+                <td class="film1">Alien</td>
+                <td class="film1">Rambo</td>
+                <td class="film1">Vingadores</td>
+            </tr>
+            <tr class="bia">
+                <td class="nomem">Beatriz Souza</td>
+                <td class="film1">Hulk</td>
+                <td class="film1">Inception</td>
+                <td class="film1">Batman</td>
+            </tr>
+            <tr class="mel">
+                <td class="nomem">Cláudia Melo</td>
+                <td class="film1">Oblivion</td>
+                <td class="film1">Matrix</td>
+                <td class="film1">Big Hero</td>
+            </tr>
+            <tr class="bru">
+                <th rowspan="3" class="genero" scope="rowgroup">Homens</th>
+                <td class="nomeh">Bruno Mendonça</td>
+                <td class="film2">Inticáveis</td>
+                <td class="film2">Amnésia</td>
+                <td class="film2">Gladiador</td>
+            </tr>
+            <tr class="dan">
+                <td class="nomeh">Daniel Lourenço</td>
+                <td class="film2">Wall-E</td>
+                <td class="film2">Oldboy</td>
+                <td class="film2">Dangal</td>
+            </tr>
+            <tr class="fab">
+                <td class="nomeh">Fabiano Mota</td>
+                <td class="film2">Star Wars 5</td>
+                <td class="film2">Taxi Drive</td>
+                <td class="film2">Toy Story</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
