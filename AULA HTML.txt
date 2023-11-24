@@ -1057,9 +1057,12 @@ Podemos adicionar Parâmetros para alterar o tamanho.
 scolling="no" => para eliminar a rolagem da página
 
 ______________________________________________________________
+LINKAR PÁGINAS INTERNAS
 
+<iframe> src="../exercicio023/tabela004.html" frameborder="0" width="500" height="500">  
+</iframe>
 
-
+podemos usar páginas criadas(ex: exercicios) no iframe.
 
 
 --------------------------------------------------------------
