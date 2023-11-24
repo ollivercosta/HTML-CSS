@@ -1064,7 +1064,25 @@ LINKAR PÁGINAS INTERNAS
 
 podemos usar páginas criadas(ex: exercicios) no iframe.
 
+também conseguimos configurar uma lista para que mostre dentro do nosso site outras páginas que criamos
 
+<ul>
+        <li><a href="../exercicio023/tabela004.html" target="frame">Primeira página</a></li>
+        <li><a href="../desafios/05/index.html" target="frame">Segunda página</a></li>
+        <li><a href="../desafios/04/modelo.html" target="frame">Terceira página</a></li>
+</ul>
+
+(No <a herf="" colocamos o edereço da nossa pasta. o target foi adicionado, nele colocamos o nome do iframe)
+
+<iframe id="tela" name="frame" src="" frameborder="0">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+</iframe>
+
+Outra opção que podemos agregar a tag é o uso do srcdoc="", onde conseguimos inserir uma mensagem ou imagem para que apareça na primeira tela do iframe quando a página carregar.
+
+<iframe id="tela" name="frame" srcdoc="<h1>AQUI VAI O TEXTO</h1> <img src='O CAMINHO DA IMAGEM'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+</iframe>
 --------------------------------------------------------------
 
 
