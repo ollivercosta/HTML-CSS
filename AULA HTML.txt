@@ -1196,6 +1196,13 @@ Checkbox e Radio
 
 Checked => para que alguma opção já apareça marcada 
 
+<input type="color" => cria uma caixa de seleção de cor
+
+<input type="range" => cria uma barra de nível 
+
+<input type="file" => cria um botão para enviar uma imagem 
+(lembrando que para essa tag p method deve ser POST)
+
 
 --------------------------------------------------------------
 
