@@ -1116,8 +1116,58 @@ box-sizing: border-box; /*Para que os icones não empurrem os outros*/
 
 
 --------------------------------------------------------------
+______________________________________________________________
+FORMULÁRIOS 
+______________________________________________________________
 
+<form> /*tag inicial de todo formulário*/
+</form>
 
+<form  action="cadastro.php" autocomplete="off">
+
+action="cadastro.php" => para onde os dados do formulário será enviado
+autocomplete="off" => Ligar ou desligar o auto-preenchimento
+
+<input type="text" name="Sobrenome" id="sobrenome"> => cria a caixa onde o usuário irá digitar as informações
+
+name="Sobrenome" => facilita a identificação da linguagem html e php
+id="sobrenome" => facilita a identificação da linguagem javascript
+
+<label for="inome">Nome:</label> => faz uma conecxão entre o texto e a caixa texto. 
+
+for="inome" => iremos sempre colocar o mesmo nome do id=''
+
+<p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+
+method='post' => os dados enviados não ficam totalmente visiveis na url
+(para dados sensíveis - informações pessoais [mais de 3 mil bytes] - envios de arquivos)
+
+method='get' => os dados enviados ficam visíveis na url
+(para dados não sensíveis - informações gerais, e só pode enviar até 3mil bytes [3 mil letras] - fotos ou arquivos)
+
+<input type="password" => uso exclusivo para uso de senhas ****
+ 
+<input type="submit"  => botão de enviar os dados 
+<input type="reset" => Botão para limpar os dados do formulário 
+
+required => torna o preenchimento obrigatório
+
+minlength="4"  => minimo de caracteres
+maxlength="8"  => máximo de caracteres
+
+size="10" => altera o tamanho da caixa de texto. O valor 10 é em relação ao numero de caracteres que será mostrado na caixa 
+
+placeholder="Digite sua senha" => anexa uma Informação dentro da caixa de texto
+
+autocomplete="on" => aplicado na tag <form> liga e desliga o autopreenchimento
+
+autocomplete="username" => aplicado no <input> teremos várias opções para cada caso.
+
+autocomplete="current-password" => para completar com uma senha ja cadastrada
+
+autocomplete="new-password" => solicita uma nova senha
 --------------------------------------------------------------
 
 
