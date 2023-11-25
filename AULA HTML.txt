@@ -1168,7 +1168,8 @@ autocomplete="username" => aplicado no <input> teremos várias opções para cad
 autocomplete="current-password" => para completar com uma senha ja cadastrada
 
 autocomplete="new-password" => solicita uma nova senha
-
+autocomplete="email" => para formatos de email
+autocomplete="tel" => para formatos de telefone
 ______________________________________________________________
 
 min="0"  => minimo de uma caixa numérica
@@ -1179,11 +1180,19 @@ step="0.5" => informa ao código que é possivel inserir valores de 0,5.
 input type="month" => para inserir o mês 
 
 input type="date" => para inserir o dia mes e ano 
+
+______________________________________________________________
+
+<fieldset> => agrupamento de campo (cria uma borda)
+<legend> => aplica o nome na linha do agrupamento, na borda
 --------------------------------------------------------------
 
 
 --------------------------------------------------------------
+estudar mais sobre RegEx
 
+pattern="^[0-9]{4}-[0-9]{4}$" 
+pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
 
 --------------------------------------------------------------
 
