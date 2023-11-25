@@ -1216,6 +1216,9 @@ ______________________________________________________________
 <textarea name="" => Caixa de mensagem 
 (Caso utilize essa tag, o method deverá ser o POST)
   
+<output name="Soma" => mostrar um resultado numerico na tela
+(é importante configurar as entradas de input com o seguinte código [ oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)" ])
+É possivel utilizar outras formas aritiméticas ( + - * /)
 
 
 
@@ -1231,6 +1234,9 @@ estudar mais sobre RegEx
 
 pattern="^[0-9]{4}-[0-9]{4}$" 
 pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
+
+comando javascript para buscar as informações do ano do computador
+let atual = new Date().getFullYear()
 
 --------------------------------------------------------------
 
