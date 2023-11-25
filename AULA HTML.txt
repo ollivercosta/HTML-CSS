@@ -1185,6 +1185,18 @@ ______________________________________________________________
 
 <fieldset> => agrupamento de campo (cria uma borda)
 <legend> => aplica o nome na linha do agrupamento, na borda
+
+______________________________________________________________
+Checkbox e Radio 
+
+<input type="checkbox" => aceita várias marcações 
+
+<input type="radio" => aceita apenas uma marcação
+(mas é importante que a tag name="OMESMONOME", em todos os inputs sejam o mesmo nome)
+
+Checked => para que alguma opção já apareça marcada 
+
+
 --------------------------------------------------------------
 
 
