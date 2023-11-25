@@ -13,7 +13,40 @@
 <body>
     <h1>Testando formulários</h1>
     <form action="#" method="post" autocomplete="on">
-    
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Região Suldeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="Rj">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="PE">Pernanbuco</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="BA">Bahia</option>
+                </optgroup>
+            </select>
+        </p>
+            
+        <p>
+                <label for="iprof">Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option value="ADM">Administração</option>
+                    <option value="Mus">Músico</option>
+                    <option value="Dev">Desenvolvedor</option>
+                </datalist>
+            </p>
+
+            <p>
+                <label for="imsg">Mensagem</label> <br>
+                <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+            </p>
+        
 
       <p>
         <input type="submit" value="Enviar">

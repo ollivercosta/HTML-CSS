@@ -1203,6 +1203,25 @@ Checked => para que alguma opção já apareça marcada
 <input type="file" => cria um botão para enviar uma imagem 
 (lembrando que para essa tag p method deve ser POST)
 
+______________________________________________________________
+ <select> => agrupamento para caixa de seleção
+
+ <optgroup label="" => Grupo dentro da caixa de seleção
+
+ <option value="" => Opções da caixa de seleção 
+
+  <datalist id="listprof" => Modelo de caixa de seleção (nesse caso o usuário poderá adicionar novas opções)
+[ <input type="text" name="prof" id="iprof" list="listprof"> ]
+
+<textarea name="" => Caixa de mensagem 
+(Caso utilize essa tag, o method deverá ser o POST)
+  
+
+
+
+
+
+
 
 --------------------------------------------------------------
 
