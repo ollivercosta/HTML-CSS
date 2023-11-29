@@ -1244,7 +1244,20 @@ let atual = new Date().getFullYear()
 --------------------------------------------------------------
 
 --------------------------------------------------------------
+MEDIA QUERY
 
+<title>Media Query</title>
+    <link rel="stylesheet" href="estilos/tela.css" media="screen">
+    <link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+media="screen" => responsável pela página principal
+media="print" => responsável pela página de impressão
+media="all" => responsavel pela configuração geral (em todos os dispositivos) 
+
+Media Query = media type + media features
+
+media type = Tipos de media
+media features = Caracteriscas de media
 
 --------------------------------------------------------------
 
