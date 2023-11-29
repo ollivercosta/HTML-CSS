@@ -4,7 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="style.css" media="print">
     <title>Media Query</title>
+<style>
+    @media print { /*como a página deverá ser impressa*/
+        /*colocaremos aqui todos os atributos ccs da página para a impressão*/
+    }
+
+    @media screen and (orientation: portrait) { /*orientação na vertical*/
+        /*colocaremos aqui todos os atributos ccs da página quando estiver na vertical*/
+    }
+
+    @media screen and (orientation: landscape) { /*orientação na horizontal*/
+        /*colocaremos aqui todos os atributos ccs da página quando estiver na vertical*/
+    }
+</style>
+
 </head>
 <body>
     <h1>Mude a orientação do seu dispositivo.</h1>

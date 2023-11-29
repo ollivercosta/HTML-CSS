@@ -1246,6 +1246,8 @@ let atual = new Date().getFullYear()
 --------------------------------------------------------------
 MEDIA QUERY
 
+É um metodo de transformação, usado de varias formas, o media query ajuda o site a ficar responsivo e dinamico
+
 <title>Media Query</title>
     <link rel="stylesheet" href="estilos/tela.css" media="screen">
     <link rel="stylesheet" href="estilos/impressora.css" media="print">
@@ -1258,6 +1260,63 @@ Media Query = media type + media features
 
 media type = Tipos de media
 media features = Caracteriscas de media
+
+<style>
+    @media all { /*Essa declaração vai servir para todas as páginas de modo geral.*/
+        body {
+            background: ;
+        }
+
+        h1 {
+            color: ;
+        }
+
+        div {
+            padding: ;
+        }
+    }
+
+    @media print { /*como a página deverá ser impressa*/
+        /*colocaremos aqui todos os atributos ccs da página para a impressão*/
+       .menu {
+        display: none;
+        font-family: Arial;
+       }
+    }
+
+    @media screen and (orientation: portrait) { /*orientação na vertical*/
+        /*colocaremos aqui todos os atributos ccs da página quando estiver na vertical*/
+         body {
+            background-image: url();
+            background-position: center bottom
+        }
+    }
+
+    @media screen and (orientation: landscape) { /*orientação na horizontal*/
+        /*colocaremos aqui todos os atributos ccs da página quando estiver na vertical*/
+         body {
+            background-image: url();
+            background-position: left bottom
+        }
+    }
+</style>
+
+As declarações podem ser feitas das seguintes formas:
+
+
+Uma pagina para cada declaração de media query - 'acima do titulo'
+    <link rel="stylesheet" href="estilos/tela.css" media="screen">
+    <link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+Pode ser criado uma unica página de estilo e colocar todos os atributos lá 
+    <link rel="stylesheet" href="style.css" >
+
+Pode ser feito na mesma página html, abrindo uma tag <style>
+
+______________________________________________________________
+
+
+
 
 --------------------------------------------------------------
 
