@@ -1335,6 +1335,8 @@ cursor: pointer; => muda o tipo de cursor para uma mãozinha
 ______________________________________________________________
 GUARDAR E MOSTRAR O MENU
 
+
+<body onresize="mudouTamanho()"> (acrescentar a tag onresize)
 <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
@@ -1355,6 +1357,14 @@ GUARDAR E MOSTRAR O MENU
                 itens.style.display = 'none' ({id}.estyle.display recebe 'none')
             } else { (se não)
                 itens.style.display = 'block' ({id}.estyle.display recebe 'block')
+            }
+        }
+
+          function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
