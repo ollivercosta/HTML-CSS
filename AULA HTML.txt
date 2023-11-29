@@ -1314,9 +1314,50 @@ Pode ser criado uma unica página de estilo e colocar todos os atributos lá
 Pode ser feito na mesma página html, abrindo uma tag <style>
 
 ______________________________________________________________
+PARA PEGAR ICONES DO GOOGLE ICONES
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+(Para usar o banco de icons do google)
+
+  /*  <title>Menu Responsivel</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>  */
+        <i class="material-icons">menu</i> => para escolher o icon do Google icons, só digitar o nome do icone
 
 
 
+MUDAR TIPO DE CURSOR
+
+cursor: pointer; => muda o tipo de cursor para uma mãozinha
+
+______________________________________________________________
+GUARDAR E MOSTRAR O MENU
+
+<i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+
+            </ul>
+        </menu>
+
+        Em seguida...
+
+<script>   (inicia com a tag function e em seguida colocar o id correspondente ao menu)
+        function clickMenu() { 
+            if (itens.style.display == 'block') {  (se ({id}.estyle.display for igual ao 'block'))
+                itens.style.display = 'none' ({id}.estyle.display recebe 'none')
+            } else { (se não)
+                itens.style.display = 'block' ({id}.estyle.display recebe 'block')
+            }
+        }
+    </script>
 
 --------------------------------------------------------------
 
