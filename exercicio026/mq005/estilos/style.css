@@ -48,7 +48,7 @@ menu > ul > li > a {
     text-decoration: none;
     background-color: rgb(87, 87, 87);
     color: white;
-    border-top: 2px solid grey;
+    border-top: 2px solid gray;
 }
 
 menu > ul > li > a:hover {
